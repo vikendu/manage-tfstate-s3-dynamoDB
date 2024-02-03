@@ -13,7 +13,7 @@ terraform {
     # you can keep your keys in a separate file obv
     access_key = "YOUR_ACCESS_KEY"
     secret_key = "IAM_user_Secret"
-    key = "setup-infra/s3/terraform.tfstate"
+    key = "project/main/terraform.tfstate"
     region = "us-east-2"
     dynamodb_table = "YOUR_DYANAMO_DB_NAME"
     encrypt = true
